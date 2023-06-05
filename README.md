@@ -10,7 +10,6 @@ conceptual understanding. We use these insights to propose a new finetuning tech
 understanding measures we proposed. We hope that the presented benchmarks will help the community assess and improve the 
 conceptual understanding capabilities of large V+L models.
 
-<p align="center"><a href="https://arxiv.org/abs/2304.03659">Paper</a></p>
 
 ## Installation
 Requires:
@@ -290,6 +289,9 @@ The format of results for each aggregated `.json` are:
   "patch_mod_change_conf": <change in logit score of single object when patch in background vs. background AND objects removed>,
 }
 ```
+
+# Licensing
+The proposed dataset is altered from [COCO]((https://cocodataset.org/#home) and [Visual Genome](https://www.visualgenome.org/) which are under the Creative Commons Attribution 4.0. 
 
 # Related Asset & Acknowledgment
 Our work is relies on the open-source models built and inspired by several assets. 

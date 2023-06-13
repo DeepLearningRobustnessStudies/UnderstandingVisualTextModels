@@ -291,7 +291,9 @@ The format of results for each aggregated `.json` are:
 ```
 
 # Licensing
-The proposed dataset is altered from [COCO]((https://cocodataset.org/#home) and [Visual Genome](https://www.visualgenome.org/) which are under the Creative Commons Attribution 4.0. 
+The proposed dataset is altered from [COCO](https://cocodataset.org/#home) and [Visual Genome](https://www.visualgenome.org/) which are under the Creative Commons Attribution 4.0. This extends to our dataset as they are modifications to these original datasets.
+
+**BridgeTower**, **FLAVA**, **CLIP** and **ViLT** uses an MIT License. The [patching scheme](https://model-patching.github.io) for our exploratory baseline experiment also uses an MIT license. Additionally, code used to implement these models utilizes [HuggingFace](https://model-patching.github.io) which has a Pylar AI creative ML License 0.0 license. 
 
 # Related Asset & Acknowledgment
 Our work is relies on the open-source models built and inspired by several assets. 
